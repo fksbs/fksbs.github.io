@@ -19,46 +19,61 @@
       color:black;
     }
     .divider{
-      background-color:#F44336 ;
+      background-color: #8B0029;
     }
     .section {
-    position: relative;
-    padding: 64px 0;
-    height: auto;
-    overflow: hidden;
-    background-color: #000;
-    z-index: 3;
+      position: relative;
+      padding: 64px 0;
+      height: auto;
+      overflow: hidden;
+      background-color: #000;
+      z-index: 3;
     }
     span {
       font-weight: 700;
     }
     p {
       font-weight: 700;
+      font-size:;
     }
     .clients .client .title, .section.clients .client .title {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0,0,0,0.5);
-    opacity: 0;
-    text-align: center;
-    line-height: 256px;
-    font-size: 20px;
-    font-weight: 300;
-    color: #fff;
-    transition: opacity .2s;
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: rgba(0,0,0,0.5);
+      opacity: 0;
+      text-align: center;
+      line-height: 256px;
+      font-size: 20px;
+      font-weight: 300;
+      color: #fff;
+      transition: opacity .2s;
     }
-
+    .k-crimson {
+      background-color:  #8B0029 !important;
+    }
+    .k-crimson-text {
+      color:  #8B0029 !important;
+    }
+    .k-brown {
+      background-color:   #D6CABC;
+    }
+    .k-brown-text {
+      color:   #D6CABC !important;
+    }
+    .btn, .btn-large, .btn-small, .btn-large, .btn-floating {
+        border: none;
+    }
     </style>
 
   </head>
   <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-solid-transition red">
+    <nav class="navbar navbar-solid-transition k-crimson">
       <div class="nav-wrapper">
         <a href="/" class="brand-logo">FKSBS</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -67,7 +82,7 @@
           <li><a href="#team">연합 학회구성</a></li>
           <li><a href="#greet">인사말</a></li>
           <li><a href="#guide">학술대회안내</a></li>
-          <li><a href="http://www.kssb.kr/board/list.html?num=361&code=pay">학술대회 등록</a></li>
+          <li><a href="http://www.kssb.kr/board/list.html?num=372&code=pay">학술대회 등록</a></li>
           <li><a href="#past">지난 학술대회</a></li>
         </ul>
 <!--
@@ -90,21 +105,21 @@
       <li><a href="#team">연합 학회구성</a></li>
       <li><a href="#greet">인사말</a></li>
       <li><a href="#guide">학술대회안내</a></li>
-      <li><a href="http://www.kssb.kr/board/list.html?num=361&code=pay">학술대회 등록</a></li>
+      <li><a href="http://www.kssb.kr/board/list.html?num=372&code=pay">학술대회 등록</a></li>
       <li><a href="#past">지난 학술대회</a></li>
     </ul>
 
     <div class="section header" style="height:80%;"  style="color:rgba(0, 0, 0, 0.32);">
 
-        <img class="background" src="images/header.jpg" style="opacity: 0.75;">
+        <img class="background" src="images/header-2021.jpg" style="opacity: 0.6;">
       <div class="header-wrapper row valign-wrapper">
         <div class="col s12">
-          <h1 class="grey-text text-darken-3 hide-on-small-only" style="margin-bottom:50px;">2020 생체분자과학</br>연합학회 학술대회</h1>
-          <h1 class="grey-text text-darken-3 hide-on-med-and-up" style="margin-bottom:50px; font-size:2.9rem;">2020 생체분자과학</br>연합학회 학술대회</h1>
-          <span class="tagline" style="font-size:26px; font-weight:600;">일시 : 2020년 1월 9일 - 11일</span>
-          <span class="tagline" style="font-size:26px; font-weight:600;">장소 : GIST(광주과학기술원) 오룡관 </span>
+          <h1 class="white-text text-darken-3 hide-on-small-only" style="margin-bottom:50px;">2021 생체분자과학</br>연합학회 학술대회</h1>
+          <h1 class="white-text text-darken-3 hide-on-med-and-up" style="margin-bottom:50px; font-size:2.9rem;">2021 생체분자과학</br>연합학회 학술대회</h1>
+          <span class="tagline k-brown-text" style="font-size:24px; font-weight:600;">일시 : 2021년 1월 5일(화)-6일(수)</span>
+          <span class="tagline k-brown-text" style="font-size:24px; font-weight:600;">장소 : 고려대학교 하나스퀘어 </span>
           <!-- <span class="tagline">Show off your business in a whole new way.</span> -->
-          <button class="read-more"><i class="icon-caret-down red-text text-darken-4"></i></button>
+          <button class="read-more"><i class="icon-caret-down k-crimson-text"></i></button>
         </div>
       </div>
     </div>
@@ -145,43 +160,45 @@
     </div>
 
     <!-- Features -->
-    <div class="section white black-text" id="greet">
+    <div class="section k-brown black-text" id="greet">
       <div class="container">
         <div class="row">
           <div class="col s12">
             <h2 class="section-title">인사말</h2>
           </div>
           <div class="col s12 m12 l12">
+
+
             <!-- <h4><i class="icon-light-bulb"></i></h4> -->
-            <p class="caption">한국결정학회, 한국구조생물학회, 한국단백질학회, 대한화학회–생명화학분과 및 한국생물물리학회 회원 여러분께,</p>
+           <p class="caption">한국결정학회, 한국구조생물학회, 한국단백질학회, 대한화학회 생명화학분과 및 한국생물물리학회 회원 여러분께,</p>
             <p class="caption">
-              안녕하십니까? 분자-생명의과학 연구를 수행하는 국내 5개 학회 간 학술교류 및 네트워크 확대를 위해서 2020 한국생체분자과학연합학회(Federation of Korean Societies for Molecular & Biomedical Sciences) 학술대회를 조직하게 됨을 매우 기쁘게 생각합니다.
+              안녕하십니까? 분자-생명의과학 연구를 수행하는 국내 5개 학회 간 학술교류 및 네트워크 확대를 목적으로 2021 한국생체분자과학연합학회(Federation of Korean Societies for Molecular & Biomedical Sciences) 학술대회를 조직하게 됨을 매우 기쁘게 생각합니다.
             </p>
 
             <p class="caption">
-              학술대회를 개최하면 보다 규모 있고 내실 있는 학술대회를 만들 수 있고 또한 각 학회의 회원들도 많은 시간과 노력을 줄일 수 있겠다는 고민에서 출발하여, 2016년 6월 17~18일 KIST에서 3개 학회(한국단백질학회, 한국생물물리학회 및 한국자기공명학회)가 공동 학술대회를 개최하였으며, 2017년 8월 21-22일 DGIST에서 한국단백질학회와 한국생물물리학회가 공동으로 학술대회를 개최한 바 있습니다.
+              보다 규모 있고 내실 있는 학술대회를 만들고, 또한 각 학회 회원들의 시간과 노력을 줄일 수 있는 방안을 마련하자는 취지로 출발하여, 2016년 6월 17-18일 한국과학기술연구원에서 3개 학회(한국단백질학회, 한국생물물리학회, 한국자기공명학회)가 공동 학술대회를 개최하였고, 2017년 8월 21-22일 대구경북과학기술원에서 한국단백질학회와 한국생물물리학회가 공동으로 학술대회를 개최한 바 있습니다.
             </p>
             <p class="caption">
-              이런 정신을 확대-계승하여 2019년 1월 10-12일 이화여대에서 5개 학회(한국결정학회, 한국구조생물학회, 한국단백질학회, 대한화학회 생명화학분과 및 한국생물물리학회)가 한국생체분자과학 연합학회를 결성하고 명실상부한 분자-생명의과학 연구 분야의 연합학술대회를 성황리에 개최하였습니다.
+              이러한 정신을 확대-계승하여 5개 학회(한국결정학회, 한국구조생물학회, 한국단백질학회, 대한화학회 생명화학분과, 한국생물물리학회)는 한국생체분자과학연합학회를 결성하였고, 2019년 1월 10-12일 이화여자대학교에서 명실상부한 분자-생명의과학 연구 분야의 연합학술대회를 성황리에 개최하였습니다. 그리고 2020년 1월 9-10일 광주과학기술원에서 더욱 발전된 학술대회를 개최한 바 있습니다.
             </p>
             <p class="caption">
-              다가오는 2020년 1월 9-11일에는 생체분자과학연합학회가 3개의 Plenary lectures와 10개 Symposium을 조직하여 연합학회 학술대회의 정신을 이어나가고 연구자간의 협력을 공고히 하려는 자리를 만들게 되었습니다.
+              다가오는 2021년 1월 5-6일 고려대학교에서 개최될 한국생체분자과학연합학회는 현재 처한 COVID-19 상황을 반영하여 3개의 Plenary lectures와 5개 Symposium을 조직하였고, 연합학회 학술대회의 정신을 이어나가고 연구자 간의 협력을 공고히 하는 자리를 마련하고자 합니다
             </p>
 
             <p class="caption">
-              모쪼록 이번에 열리는 5개 학회 공동 “생체분자과학연합 학술대회”에 각 학회의 회원들이 적극적으로 참여하여, 한국 분자-생명의과학 연구 분야의 여러 학회 회원들의 학술교류의 장이 되기를 희망합니다.
+              이번에 열리는 5개 학회 공동으로 준비한 한국생체분자과학연합학회 학술대회에 각 학회 회원들의 적극적인 참여로 분자-생명의과학 분야 연구자들 간의 풍성한 학문적 토론과 활발한 정보교류의 장이 되기를 희망합니다.
             </p>
             <p class="caption">감사합니다.</p>
 
             <p class="caption">
-              2019년 11월 6일</br></br>
+              2020년 11월 18일</br></br>
               한국생체분자과학연합학회 조직위원회</br>
-              조직위원장 한국생물물리학회 회장 박철승</br></br>
+              조직위원장 한국결정학회 회장 김명희</br></br>
               조직위원</br>
-              한국결정학회 부회장 김명희</br>
               한국구조생물학회 회장 이지오</br>
-              한국단백질학회 회장 최선</br>
-              대한화학회 생명화학분과 분과장 정상전 (학회명 이상 가나다순)</br>
+              한국단백질학회 회장 황광연</br>
+              대한화학회 생명화학분과 분과장 양은경</br>
+              한국생물물리학회 회장 김승준 (학회명 이상 가나다순)</br>
             </p>
 
           </div>
@@ -190,52 +207,79 @@
     </div>
 
     <!-- Features -->
-    <div class="section black-text" style="background-color:#FCFFE6;" id="team" >
+    <div class="section black-text white" id="team" >
       <div class="container">
         <div class="row">
           <div class="col s12">
-            <h2 class="section-title center">2020년 한국 생체분자과학 연합학회 구성</h2>
+            <h2 class="section-title center">2021년 한국 생체분자과학 연합학회 구성</h2>
           </div>
-          <div class="col s12 m12 l3">
+          <div class="col s12 m12 l1  hide-on-small-only hide-on-med-only">
+          </div>
+          <div class="col s12 m12 l2">
             <p class="center">조직위원회</p>
             <div class="divider">
             </div>
             <p class="">
-              위원장: 박철승(GIST)</br>
-              위원 : 최선(이화여대), 이지오(POSTECH),</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 김명희(KRIBB), 정상전(성균관대)
+              위원장: 김명희(KRIBB)</br>
+              위  &nbsp;&nbsp;&nbsp;원: 이지오(POSTECH)</br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;황광연(고려대)</br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;김승준(KRIBB)</br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;양은경(KIST)
             </p>
           </div>
-          <div class="col s12 m12 l3">
+          <div class="col s12 m12 l2">
             <p class="center">운영위원회</p>
             <div class="divider">
             </div>
             <p>
-              위원장: 임현호(KBRI)</br>
-              위원 : 차선신(이화여대), 진미선(GIST),</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  이상호(성균관대), 이현수(서강대)
+              위원장: 이상호(성균관대)</br>
+              위  &nbsp;&nbsp;&nbsp;원: 진미선(GIST)</br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이기석(부산가톨릭대)</br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이병일(국립암센터)</br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;김낙균(KIST)
             </p>
           </div>
-          <div class="col s12 m12 l3">
+          <div class="col s12 m12 l2">
             <p class="center">학술위원회</p>
             <div class="divider">
             </div>
             <p>
-              위원장: 황선욱(고려대 의대)</br>
-              위원 : 김승중(KAIST), 최희정(서울대),</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  이형호(서울대), 이현수(서강대)
+              위원장: 조현수(연세대)</br>
+              위  &nbsp;&nbsp;&nbsp;원: 이형호(서울대)</br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;유우경(DGIST)</br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;우선희(충남대)</br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;김학중(고려대)
             </p>
           </div>
-          <div class="col s12 m12 l3">
+          <!-- <div class="col s12 m12 l1">
+          </div> -->
+          <div class="col s12 m12 l2">
             <p class="center">재무위원회</p>
             <div class="divider">
             </div>
             <p>
-              위원장: 이은희(가톨릭대 의대)</br>
-              위원 : 이준혁(극지연구소), 진미선(GIST),</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  이상호(성균관대), 김낙균(KIST)
+              위원장: 이상호(성균관대)</br>
+              위  &nbsp;&nbsp;&nbsp;원: 진미선(GIST)</br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이준혁(극지연구소)</br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;구본수(KRIBB)</br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;임상민(KIST)
+            </p>
+          </div>
+          <div class="col s12 m12 l2">
+            <p class="center">지원위원회</p>
+            <div class="divider">
+            </div>
+            <p>
+              위원장: 김경현(고려대)</br>
+              위  &nbsp;&nbsp;&nbsp;원: 송현규(고려대)</br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;우재성(고려대)</br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;황선욱(고려대)
             </p>
           </div>
           <div class="col s12 m12 l12">
             <div class="divider">
             </div>
-            <p class="center"> 행정/문의 : 한혜민(2020fksbs@gmail.com)</p>
+            <p class="center"> 문의 : fksbs.info@gmail.com</p>
           </div>
           </div>
         </div>
@@ -243,7 +287,7 @@
     </div>
 
     <!-- Planery -->
-    <div class="section white black-text" id="guide">
+    <div class="section k-brown black-text" id="guide">
       <div class="container">
         <div class="row">
           <div class="col s12">
@@ -253,124 +297,66 @@
             <!-- <h4><i class="icon-light-bulb"></i></h4> -->
             <h3 class="teal-text text-darken-4">Plenary Lectures</h3>
             <p class="caption">
-              오병하 (KAIST)</br>
-              Genji Kurisu (PDBj, Osaka University)</br>
-              장영태 (POSTECH, IBS)
+              김성훈 (연세대)</br>
+              석차옥 (서울대)</br>
+              조윤제 (POSTECH)
             </p>
             <h3 class="teal-text text-darken-4">Symposia</h3>
             <p class="caption">
-              GIST-Created New Horizon</br>
-              Computational Approaches for New Molecular Findings</br>
-              Ionic Transport Mechanism</br>
-              New Horizons in Membrane Signalling and Trafficking</br>
-              New Approaches in Structural Biology</br>
-              Biomolecular Engineering</br>
-              Cutting-Edge Technologies for Next-Generation Biomedicine</br>
-              Emerging Technologies on Protein Science</br>
-              Neuroscience and Imaging</br>
+              New paradigms in host-pathogen interaction</br>
+              Infection and virulence</br>
+              New horizon in protein structure and dynamics</br>
+              Calcium regulatory mechanisms in health and disease</br>
+              Novel peptide design and its therapeutic application</br>
             </p>
-            <h4 class="teal-text text-darken-4">Young Scientist Session</h4>
-            <h4 class="teal-text text-darken-4">Luncheon Seminar <span class="caption">PDBj, Tomocube</span></h4>
 
-            <a href="program.html" class="btn red" style="background-color:white;" target="_blank">세부 프로그램 안내</a>
-            <a href="images/program_book.pdf" class="btn red" download>프로그램 북</a>
+            <a href="void(0);" onclick="alert('준비중입니다.');return false;" class="btn k-crimson" style="background-color:white;">세부 프로그램 안내</a>
+            <!-- <a href="images/program_book.pdf" class="btn k-crimson" download>프로그램 북</a> -->
 
 
           </div>
           <div class="col s12 m6 l6">
             <h3 class="teal-text text-darken-4">Registration</h3>
             <p class="caption">
-              2019년 11월 1일 ~ 12월 27일</br>
-              연구책임자 | 15만원(현장 20만원)</br>
-              학생 및 연구원 | 7만원(현장 10만원)</br>
+              2020년 12월 1일 ~ 12월 31일</br>
+              연구책임자 | 20만원</br>
+              학생 및 연구원 | 무료(온라인)</br>
             </p>
-            <a href="http://www.kssb.kr/board/list.html?num=361&code=pay" class="btn red">등록하기</a>
+            <a href="http://www.kssb.kr/board/list.html?num=372&code=pay" class="btn k-crimson" style="background-color:white;">등록하기</a>
 
           </div>
           <div class="col s12 m6 l6">
             <h3 class="teal-text text-darken-4">Abstract Submission</h3>
             <p class="caption">
-              마감 | 2019년 12월 27일</br>
-              제출 | 2020fksbs@gmail.com</br>
+              마감 | 2020년 12월 11일</br>
+              제출 | fksbs.info@gmail.com</br>
               파일명 | 소속-성명.doc
             </p>
-            <a href="/images/2020_FKSBS_Abstract_Submission_Form.docx" class="btn red" download>초록양식 다운로드</a>
+            <a href="/images/2021-POSTER-abstract_template_v1.docx" class="btn k-crimson" download>초록양식 다운로드</a>
           </div>
           <div class="col s12 m12 l12">
-            <h3 class="teal-text text-darken-4">할인숙박 안내</h3>
+            <h3 class="teal-text text-darken-4">주관</h3>
             <p class="caption">
-              더존호텔(062-973-6699, <a href="/images/accomodation_zone.pdf" download>더 알아보기</a>)
-              , 엠파이어관광호텔(062-962-2000, <a href="/images/accomodation_empire.PNG" download>더 알아보기</a>)
-              , 호텔마이다스(062-973-5000, <a href="/images/accomodation_midas.pdf" download>더 알아보기</a>)
-            </p>
-            <p class="caption">* 예약시 “생체분자과학연합학회”를 말씀하시면 할인된 금액으로 숙박하실 수 있습니다</p>
+              성균관대학교 4차산업혁명혁신선도대학사업단)</br>
+              고려대학교 이과대학
           </div>
         </div>
       </div>
     </div>
 
     <!-- Clients -->
-    <div class="section  red clients">
+    <div class="section  k-crimson clients">
       <div class="container">
         <h2 class="section-title white-text center">후원</h2>
       </div>
       <div class="row">
         <a href="#!" class="col s12 m6 l2 client white">
-          <img class="logo" src="images/GIST_logo.jpg" style="width:200px;">
-          <span class="title">GIST</span>
+          <img class="logo" src="images/xtembiolab_logo.png" style="width:200px;">
+          <span class="title">xtembiolab</span>
         </a>
-        <a href="#!" class="col s12 m6 l2 client white">
-          <img class="logo" src="images/nikon_logo.jpg"  style="width:200px;">
-          <span class="title">Nikkon Korea/BIT</span>
-        </a>
-        <a href="#!" class="col s12 m6 l2 client white">
-          <img class="logo" src="images/dongyong_logo.jpg"  style="width:200px;">
-          <span class="title">동영과학</span>
-        </a>
-        <a href="#!" class="col s12 m6 l2 client white">
-          <img class="logo" src="images/scitech_logo.jpg"  style="width:200px;">
-          <span class="title">SciTech Korea</span>
-        </a>
-        <a href="#!" class="col s12 m6 l2 client white">
-          <img class="logo" src="images/hpclab_logo.png"  style="width:200px;">
-          <span class="title">HPCLab</span>
-        </a>
-        <a href="#!" class="col s12 m6 l2 client white">
-          <img class="logo" src="images/leehyo_logo.png"  style="width:150px;">
-          <span class="title">이효바이오싸이언스</span>
-        </a>
-        <a href="#!" class="col s12 m6 l2 client white">
-          <img class="logo" src="images/tomocube_logo.png"  style="width:200px;">
-          <span class="title">TomoCube</span>
-        </a>
-        <a href="#!" class="col s12 m6 l2 client white">
-          <img class="logo" src="images/procell_logo.png"  style="width:200px;">
-          <span class="title">ProCell Therapeutics</span>
-        </a>
-        <a href="#!" class="col s12 m6 l2 client white">
-          <img class="logo" src="images/pdbj_logo.png"  style="width:200px;">
-          <span class="title">PDBj</span>
-        </a>
-        <a href="#!" class="col s12 m6 l2 client white">
-          <img class="logo" src="images/in_logo.png"  style="width:200px;">
-          <span class="title">인성크로마택</span>
-        </a>
-        <a href="#!" class="col s12 m6 l2 client white">
-          <img class="logo" src="images/taesin_logo.png"  style="width:200px;">
-          <span class="title">태신바이오사이언스</span>
-        </a>
-        <a href="#!" class="col s12 m6 l2 client white">
-          <img class="logo" src="images/iwoo_logo.png"  style="width:200px;">
-          <span class="title">이우과학</span>
-        </a>
-        <a href="#!" class="col s12 m6 l2 client white">
-          <img class="logo" src="images/Addsci.png"  style="width:200px;">
-          <span class="title">에드사이언</span>
-        </a>
-        
-        <a href="#!" class="col s12 m6 l2 client white">
-          <img class="logo" src="images/Guanju.png"  style="width:200px;">
-          <span class="title">광주관광컨벤션뷰로</span>
+
+        <a href="#!" class="col s12 m6 l2 client white hide-on-small-only hide-on-med-only">
+
         </a>
 
         <a href="#!" class="col s12 m6 l2 client white hide-on-small-only hide-on-med-only">
@@ -394,7 +380,7 @@
     </div>
 
     <!-- Blog -->
-    <div class="section  red full-height" style="padding-top:0px;" id="past">
+    <div class="section  k-crimson full-height" style="padding-top:0px;" id="past">
         <div class="row">
           <div class="col s12 center">
             <h1 style="font-size:3.8rem;">지난 학술대회</h1>
@@ -403,20 +389,20 @@
               <div class="col s12 m12 l12">
                 <div class="card">
                   <div class="card-image black">
-                    <a href="https://www.ibric.org/myboard/view.php?Board=bio_schedule1&id=232042&filename=3rd%20Circular.v7.pdf&fidx=1" download>
-                      <img src="images/past.png" style="opacity: 0.75;">
+                    <a href="2020.html" download>
+                      <img src="images/past-2020.jpg" style="opacity: 0.75;">
 
 
                     <span class="card-title left-align show-on-small-only hide-on-med-and-up" style="font-weight: 700; font-size:15px; padding-bottom:12px;" >
-                      2019년 생체분자과학 연합학술대회</br>
-                      일시 : 2019년 1월 10-12일</br>
-                      ​장소 : 이화여자대학교 이삼봉홀
+                      2020년 생체분자과학 연합학술대회</br>
+                      일시 : 2020 1월 9일-11일</br>
+                      ​장소 : GIST(광주과학기술원) 오룡관
                     </span>
 
                     <span class="card-title left-align hide-on-small-only" style="font-weight: 700;" >
-                      2019년 생체분자과학 연합학술대회</br>
-                      일시 : 2019년 1월 10-12일</br>
-                      ​장소 : 이화여자대학교 이삼봉홀
+                      2020년 생체분자과학 연합학술대회</br>
+                      일시 : 2020 1월 9일-11일</br>
+                      ​장소 : GIST(광주과학기술원) 오룡관
                     </span>
                     </a>
                   </div>
