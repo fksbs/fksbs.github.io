@@ -62,9 +62,11 @@
       background-color:   #D6CABC;
     }
     .k-brown-text {
-      color:   #D6CABC;
+      color:   #D6CABC !important;
     }
-
+    .btn, .btn-large, .btn-small, .btn-large, .btn-floating {
+        border: none;
+    }
     </style>
 
   </head>
@@ -80,7 +82,7 @@
           <li><a href="#team">연합 학회구성</a></li>
           <li><a href="#greet">인사말</a></li>
           <li><a href="#guide">학술대회안내</a></li>
-          <li><a href="http://www.kssb.kr/board/list.html?num=361&code=pay">학술대회 등록</a></li>
+          <li><a href="http://www.kssb.kr/board/list.html?num=372&code=pay">학술대회 등록</a></li>
           <li><a href="#past">지난 학술대회</a></li>
         </ul>
 <!--
@@ -103,7 +105,7 @@
       <li><a href="#team">연합 학회구성</a></li>
       <li><a href="#greet">인사말</a></li>
       <li><a href="#guide">학술대회안내</a></li>
-      <li><a href="http://www.kssb.kr/board/list.html?num=361&code=pay">학술대회 등록</a></li>
+      <li><a href="http://www.kssb.kr/board/list.html?num=372&code=pay">학술대회 등록</a></li>
       <li><a href="#past">지난 학술대회</a></li>
     </ul>
 
@@ -114,8 +116,8 @@
         <div class="col s12">
           <h1 class="white-text text-darken-3 hide-on-small-only" style="margin-bottom:50px;">2021 생체분자과학</br>연합학회 학술대회</h1>
           <h1 class="white-text text-darken-3 hide-on-med-and-up" style="margin-bottom:50px; font-size:2.9rem;">2021 생체분자과학</br>연합학회 학술대회</h1>
-          <span class="tagline k-crimson-text" style="font-size:24px; font-weight:600;">일시 : 2021년 1월 5일(화)-6일(수)</span>
-          <span class="tagline k-crimson-text" style="font-size:24px; font-weight:600;">장소 : 고려대학교 하나스퀘어 </span>
+          <span class="tagline k-brown-text" style="font-size:24px; font-weight:600;">일시 : 2021년 1월 5일(화)-6일(수)</span>
+          <span class="tagline k-brown-text" style="font-size:24px; font-weight:600;">장소 : 고려대학교 하나스퀘어 </span>
           <!-- <span class="tagline">Show off your business in a whole new way.</span> -->
           <button class="read-more"><i class="icon-caret-down k-crimson-text"></i></button>
         </div>
@@ -158,7 +160,7 @@
     </div>
 
     <!-- Features -->
-    <div class="section white black-text" id="greet">
+    <div class="section k-brown black-text" id="greet">
       <div class="container">
         <div class="row">
           <div class="col s12">
@@ -203,63 +205,79 @@
     </div>
 
     <!-- Features -->
-    <div class="section black-text k-brown" id="team" >
+    <div class="section black-text white" id="team" >
       <div class="container">
         <div class="row">
           <div class="col s12">
             <h2 class="section-title center">2021년 한국 생체분자과학 연합학회 구성</h2>
           </div>
-          <div class="col s12 m12 l3">
+          <div class="col s12 m12 l1  hide-on-small-only hide-on-med-only">
+          </div>
+          <div class="col s12 m12 l2">
             <p class="center">조직위원회</p>
             <div class="divider">
             </div>
             <p class="">
               위원장: 김명희(KRIBB)</br>
-              위원: 이지오(POSTECH), 황광연(고려대),</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;김승준(KRIBB), 양은경(KIST)
+              위  &nbsp;&nbsp;&nbsp;원: 이지오(POSTECH)</br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;황광연(고려대)</br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;김승준(KRIBB)</br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;양은경(KIST)
             </p>
           </div>
-          <div class="col s12 m12 l3">
+          <div class="col s12 m12 l2">
             <p class="center">운영위원회</p>
             <div class="divider">
             </div>
             <p>
               위원장: 이상호(성균관대)</br>
-              위원 : 진미선(GIST), 이기석(부산가톨릭대),</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  이병일(국립암센터), 김낙균(KIST)
+              위  &nbsp;&nbsp;&nbsp;원: 진미선(GIST)</br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이기석(부산가톨릭대)</br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이병일(국립암센터)</br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;김낙균(KIST)
             </p>
           </div>
-          <div class="col s12 m12 l3">
+          <div class="col s12 m12 l2">
             <p class="center">학술위원회</p>
             <div class="divider">
             </div>
             <p>
               위원장: 조현수(연세대)</br>
-              위원 : 이형호(서울대), 유우경(DGIST),</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  우선희(충남대), 김학중(고려대)
+              위  &nbsp;&nbsp;&nbsp;원: 이형호(서울대)</br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;유우경(DGIST)</br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;우선희(충남대)</br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;김학중(고려대)
             </p>
           </div>
           <!-- <div class="col s12 m12 l1">
           </div> -->
-          <div class="col s12 m12 l3">
+          <div class="col s12 m12 l2">
             <p class="center">재무위원회</p>
             <div class="divider">
             </div>
             <p>
-              위원장: 문회리(UNIST)</br>
-              위원 : 진미선(GIST), 이준혁(극지연구소),</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  구본수(KRIBB), 임상민(KIST)
+              위원장: 이상호(성균관대)</br>
+              위  &nbsp;&nbsp;&nbsp;원: 진미선(GIST)</br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이준혁(극지연구소)</br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;구본수(KRIBB)</br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;임상민(KIST)
             </p>
           </div>
-          <div class="col s12 m12 l3">
+          <div class="col s12 m12 l2">
             <p class="center">지원위원회</p>
             <div class="divider">
             </div>
             <p>
               위원장: 김경현(고려대)</br>
-              위원 : 송현규(고려대), 우재성(고려대),</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  황선욱(고려대)
+              위  &nbsp;&nbsp;&nbsp;원: 송현규(고려대)</br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;우재성(고려대)</br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;황선욱(고려대)
             </p>
           </div>
           <div class="col s12 m12 l12">
             <div class="divider">
             </div>
-            <p class="center"> 문의 : 이상호(fksbs.info@gmail.com)</p>
+            <p class="center"> 문의 : fksbs.info@gmail.com</p>
           </div>
           </div>
         </div>
@@ -267,7 +285,7 @@
     </div>
 
     <!-- Planery -->
-    <div class="section white black-text" id="guide">
+    <div class="section k-brown black-text" id="guide">
       <div class="container">
         <div class="row">
           <div class="col s12">
@@ -303,7 +321,7 @@
               학생 및 연구원 | 무료(온라인)</br>
               등록처 | https://fksbs.github.io</br> -->
             </p>
-            <a href="void(0);" onclick="alert('준비중입니다.');return false;" class="btn k-crimson" style="background-color:white;">등록하기</a>
+            <a href="http://www.kssb.kr/board/list.html?num=372&code=pay" class="btn k-crimson" style="background-color:white;">등록하기</a>
 
           </div>
           <div class="col s12 m6 l6">
